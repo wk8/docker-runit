@@ -39,7 +39,7 @@ CMD ["./my_service"]
 
 Now let's `exec` inside that container:
 ```bash
-docker exec -it docker-runit bash
+docker exec -it docker-runit sh
 ```
 
 You can stop or restart your service as many times as you want:
